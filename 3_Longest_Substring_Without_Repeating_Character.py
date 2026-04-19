@@ -9,6 +9,7 @@ class Solution:
             if s[r] not in out:
                 out += s[r]
                 max_len = max(max_len , len(out))
+                r += 1
 
             else:
                 out = out[1:]
